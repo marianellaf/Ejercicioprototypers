@@ -1,0 +1,83 @@
+*{
+	font-family:"family Merriweather"
+}
+
+.oscuro{
+	background-color:#fff;
+}
+
+.fondo{
+	background-image:url(../img/flor.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	opacity:0.8;
+	padding:20%;
+}
+.foto{
+	padding:-10%;
+
+}
+.body p {
+    margin: 45% 0 10px;
+}
+.parrafo p {
+    margin: 25% 0 10px;
+}
+.flor{
+	background-image: url(../img/ne5be5e6dwe-annie-spratt.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top:8%;
+	padding: 20%;
+	width: 30%;
+
+}
+.flor2{
+	background-image: url(../img/nqsunxinsp4-alex-harvey.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top:15px;
+	padding: 20%;
+	width: 30%;
+
+}
+.nuevofo{
+	background-image: url(../img/nuevflo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 20%;
+	height: 50px;
+	padding:16%;
+}
+.nuevolo{
+	background-image: url(../img/nuevoloto.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 20%;
+	height: 50px;
+	padding:16%;
+}
+
+.tw{
+  margin-top: 5%;
+}
+
+/*efecto galeria
+.slide{
+  width:100%;
+  height:100%;
+}
+
+.wrapper {
+  display: table;
+  width:100%;
+  height:100%;
+}
+
+.content {
+  display: table-cell;
+  width:100%;
+  height:100%;
+  text-align: center;
+  vertical-align: middle;
+}*/
