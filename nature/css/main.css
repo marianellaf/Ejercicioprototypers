@@ -86,6 +86,7 @@
 	width: 20%;
 	height: 50px;
 	padding:16%;
+	
 }
 .nuevolo{
 	background-image: url(../img/nuevoloto.jpg);
@@ -111,6 +112,10 @@
 }
 .iconn{
 	margin-left: 57px;
+}
+
+.video{
+	margin-top: 5%;
 }
 /*efecto galeria
 .slide{

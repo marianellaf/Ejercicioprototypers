@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 	<title>Nature</title>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/section-scroll.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -13,9 +15,8 @@
 <body>
 	<header>
 
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default"><!-- nav bar -->
 			<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
@@ -26,17 +27,16 @@
 					<a class="navbar-brand" href="#">Brand</a>
 				</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav menu">
 						<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-						<li class:"menu"><a href="#">About</a></li>
+						<li class:"menu scrollable-section" data-section-title="About Us"><a href="#">About</a></li>
 					
-						<li class:"menu"><a href="#">video</a></li>
+						<li class:"menu scrollable-section" data-section-title="About Us"><a href="#">video</a></li>
 					
-						<li class:"menu"><a href="#">Gallery</a></li>
+						<li class:"menu scrollable-section" data-section-title="About Us"><a href="#">Gallery</a></li>
 						
-						<li class:"menu"><a href="#">Contact</a></li>
+						<li class:"menu scrollable-section" data-section-title="About Us"><a href="#">Contact</a></li>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
@@ -55,10 +55,10 @@
 			</div>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
-</nav>
+</nav><!-- fin nav-->
 </header>
 
-<section class="oscuro ">
+<section class="oscuro "><!-- primera imagen background-->
 	<div class="scrollable-section" data-section-title="About Us">
 		<div class="container-fluid fondo foto">
 			<div class="row">
@@ -70,8 +70,8 @@
 				</div>
 			</div>
 		</div>	
-	</section>
-	<section class="oscuro">
+	</section><!-- fin a primera imagen-->
+	<section class="oscuro"><!-- seccion imagen y texto aqui debe ir el efecto de la imagen pero no me resulta-->
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-6 col-sm-6  flor text-center">
@@ -81,31 +81,20 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A minima, laborum eius quaerat, necessitatibus quae eos officia animi sunt quam voluptatibus, veniam praesentium quibusdam dicta fugit expedita architecto aperiamLorem ipsum dolor sit amet, consectetur adipisicing elit. Iure unde, quam excepturi voluptates dolor ducimus, impedit dolorum nulla incidunt beatae alias hic consectetur laboriosam iusto. Nam voluptatem culpa iure simiLaudantium, ut minima laboriosam veritatis nisi. Corrupti perferendis blanditiis fuga ipsam quos, dolorem, aspernatur molestiae minima quasi est impedit. Enim quia id aliquam minima ratione odit eum libero soluta recusCumque, aliquam molestias quos, iusto reiciendis quibusdam dolores! Illum ex nulla, debitis odio similique. Quas nostrum, ducimus quam cumque eligendi dignissimos rem, eveniet nihil fugit commodi perspiciatis, enim sequi</p>
 				</div>
 			</div>
-			<div class="row">
 
-				<div class=" col-xs-6 col-sm-6 text-center parrafo ">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A minima, laborum eius quaerat, necessitatibus quae eos officia animi sunt quam voluptatibus, veniam praesentium quibusdam dicta fugit expedita architecto aperiamLorem ipsum dolor sit amet, consectetur adipisicing elit. Iure unde, quam excepturi voluptates dolor ducimus, impedit dolorum nulla incidunt beatae alias hic consectetur laboriosam iusto. Nam voluptatem culpa iure simiLaudantium, ut minima laboriosam veritatis nisi. Corrupti perferendis blanditiis fuga ipsam quos, dolorem, aspernatur molestiae minima quasi est impedit. Enim quia id aliquam minima ratione odit eum libero soluta recusCumque, aliquam molestias quos, iusto reiciendis quibusdam dolores! Illum ex nulla, debitis odio similique. Quas nostrum, ducimus quam cumque eligendi dignissimos rem, eveniet nihil fugit commodi perspiciatis, enim sequi</p>
-				</div>
-				<div class="col-xs-6 col-sm-6  flor2 text-center">
-
-				</div>
-			</div>
 		</div>	
-
-	</section>
-
-
-
-	<section class="video">
-		<div class="container">
+	</section><!-- fin de imagen con texto-->
+	<section class="video"><!-- section video -->
+		<div class="container-fluid video">
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12">
-					<div class="embed-responsive embed-responsive-4by3"><iframe src="https://vimeo.com/43338103" width="1215" height="750" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+					<div><iframe width="100%" height="600" src="https://www.youtube.com/embed/3VSQbGVHXlc" frameborder="0" allowfullscreen></iframe></div>
+					<!-- el video lo cambie por que no se me veia el original no se que onda -->
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="galeria">
+	</section> <!-- fin de secccion video -->
+	<section class="galeria"><!-- seccion fotos final van con efeccto que no me resulta-->
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 text-center">
 				<h1 class="raton">Lorem ipsum</h1>
@@ -128,7 +117,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section><!-- fin a secccion imagenes-->
 <footer class="elemetos">
 
 	<section class="elementos">
@@ -156,18 +145,60 @@
 	</section>
 	
 </footer>
+
+<script type="text/javascript" src="src/typewrite.js"></script>
+<script>
+        $(document).ready(function(){
+            $('#typewriteText').typewrite({
+                actions: [
+                    {type: 'Hello. '},
+                    {type: '<br>'},
+                    {type: 'Weclome '},
+                    {delay: 1500},
+                    {remove: {num: 1, type: 'stepped'}},
+                    {select: {from: 11, to: 16}},
+                    {delay: 2000},
+                    {remove: {num: 5, type: 'whole'}},
+                    {delay: 300},
+                    {type: 'lcome to `typewrite`. '},
+                    {type: '<br>'},
+                    {type: 'It\'s so easy to setup and use.'}
+                ]
+            });
+        });
+    </script>
+ 
+<script type="text/javascript"> 
+	 $(document).ready(function () { 
+        $('body').sectionScroll(); // Easy Peasy Lemon Squeezy 
+    }) 
+bulletsClass: 'section-bullets',
+sectionsClass: 'scrollable-section',
+scrollDuration: 1000,
+titles: true,
+topOffset: 0,
+easing: ''
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
 <!-- This is optional, if you want to use easings then please include jquery.easing.1.3.js. See options -->
 <!-- Get it here (Please buy him a beer) http://gsgd.co.uk/sandbox/jquery/easing/-->
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>  
-
-
 <!-- Last but not least  -->           
 <script type="text/javascript" src="js/jquery.section-scroll.js"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="sass/bootstrap-sass-3.3.7/assets/javascripts/bootstrap.min.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js">
-
+</body>
 </html>
